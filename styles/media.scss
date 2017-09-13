@@ -1,0 +1,179 @@
+@media only screen and (max-width: 960px){
+
+  .verticalMessage{display: none;}
+  .vimeo{
+    width:1.5%;
+    position: absolute;
+    left:40%;
+    top:108%;
+  }
+  .twitter{
+    width:1.5%;
+    position: absolute;
+    left:48%;
+    top:108%;
+  }
+  .tumblr{
+    width:0.95%;
+    position: absolute;
+    left:56%;
+    top:108%;
+  }
+  .header-menu {
+    font-size: (960/1366)*0.5625rem;
+    letter-spacing: (960/1366)*0.33rem;
+  }
+  .firstMessage-section-1 {
+    font-size: (960/1366)*0.5625rem;
+    letter-spacing: (960/1366)*0.33rem;
+  }
+  .secondMessage-section-1 {
+    font-size: (960/1366)*3.875rem;
+  }
+  .thirdMessage-section-1 {
+    font-size: (960/1366)*0.92rem;
+  }
+  .leftButton-section-1 {
+    padding-right: (960/1366)*0.3rem;
+  }
+  .rightButton-section-1 {
+    padding-left: (960/1366)*0.3rem;
+  }
+  .fraction{
+    padding-right: 0.1rem;
+    padding-left: 0.1rem;
+  }
+  .sliderFirstNumber-section-1 {
+    font-size: (960/1366)*0.5rem;
+    padding-bottom: (960/1366)*0.1rem;
+  }
+  .sliderSecondNumber-section-1{
+    font-size: (960/1366)*0.5rem;
+    font-family: LeagueSpartan-Bold;
+    padding-bottom: (960/1366)*0.1rem;
+  }
+  .message-section-2 {
+    div {
+      font-size: (960/1366)*0.9rem;
+    }
+    span {
+      font-size:(960/1366)*0.56rem;
+      letter-spacing: (960/1366)*0.33rem;
+      border-bottom: solid #8dc2f4 (960/1366)*3px;
+      a {
+        padding-bottom: (960/1366)*0.7rem;
+        margin-right: (-1)*(960/1366)*0.25rem;
+      }
+    }
+  }
+  .message-section-3 {
+    .firstMessage-section-3 {
+      font-size: (960/1366)*0.56rem;
+      letter-spacing: (960/1366)*0.33rem;
+    }
+    .secondMessage-section-3{
+      font-size: (960/1366)*2.6125rem;
+      margin-top: (960/1366)*0.2rem;
+    }
+  }
+  .slider {
+    .part-1{
+      img{display:none};
+      .name-part-1{display:none};
+      .model-part-1{display:none};
+      .price-part-1{display:none};
+      .buy-part-1{display:none};
+      background-image: url("../image/media960-board-1.png");
+      background-repeat: no-repeat;
+      width: 50%;
+      margin-left: 0%;
+      height: (42/28)*(960/1366)*600px; /*тут коэффициент 960/1366 - это учет разрешения экрана, а коэфф. 42/28 - учет увеличения карточки в 1.5 раза, ведь карточек стало не 3, а 2 */
+      &:hover{cursor: pointer;};
+    }
+    .part-2{
+        img{display:none};
+        .name-part-2{display:none};
+        .model-part-2{display:none};
+        .price-part-2{display:none};
+        .buy-part-2{display:none};
+        background-image: url("../image/media960-board-2.png");
+        background-repeat: no-repeat;
+        width: 50%;
+        margin-left: 0%;
+        margin-top: -2.3%;
+        height: (42/28)*(960/1366)*600px;
+      &:hover{cursor: pointer;};
+      }
+    .part-3{
+      display: none;
+    }
+  }
+  .section-3-rightButton{
+    margin-top: (42/28)*22%;
+
+    img{
+      width: (42/28)*13%;
+      margin-left: 50%;
+    }
+  }
+  .section-3-leftButton {
+    margin-top: (42/28)*21.7%;
+    img{
+      width: (42/28)*13%;
+      margin-left: 30%;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .showAll {
+    p {
+      a {
+        padding-bottom: (42/28)*(960/1366)*0.6rem;
+        margin-right: (42/28)*(-1)*(960/1366)*0.25rem;
+      }
+      font-size: (42/28)*(960/1366)*0.56rem;
+      letter-spacing: (42/28)*(960/1366)*0.33rem;
+      border-bottom: solid #8cc1f3 (42/28)*(960/1366)*3px;
+    }
+  }
+  .firstMessage-section-4 {
+    a {
+      border-bottom:solid #8cc1f3 (960/1366)*3px;
+    }
+    font-size: (960/1366)*2.36rem;
+  }
+  .secondMessage-section-4 {
+    font-size: (960/1366)*0.8rem;
+    line-height: (960/1366)*1.5rem;
+  }
+  .thirdMessage-section-4 {
+    a {
+      padding-bottom: (960/1366)*0.5rem;
+      margin-right: (-1)*(960/1366)*0.25rem;
+    }
+    font-size: (960/1366)*0.5rem;
+    letter-spacing: (960/1366)*0.25rem;
+    border-bottom:solid #8cc1f3 (960/1366)*3px;
+  }
+  .footer-message-1 {
+    font-size: (960/1366)*2.4rem;
+  }
+  .footer-message-2{
+    font-size: (960/1366)*0.78rem;
+    line-height: (960/1366)*1.5rem;
+  }
+  .mail-input {
+    input{
+      height: (960/1366)*2.4rem;
+      font-size: (960/1366)*0.55rem;
+      letter-spacing: (960/1366)*0.25rem;
+    }
+    div {
+      height: (960/1366)*2.4rem;
+      font-size: (960/1366)*1.8rem;
+    }
+  }
+
+}

@@ -1,0 +1,503 @@
+.site-wrapper {
+  background-color: #ffffff;}
+/*--------------------header--------------------------------------------------*/
+.inner-header {
+  width: 100%;}
+.wrapper-image-header {
+  width: 20%;}
+.img-header-1 {
+  width: 5%;
+  margin-left: 27%;
+  margin-top: 12%;
+  float: left;}
+.image-section-1 {
+  width:107%;
+}
+.header-menu {
+  text-decoration: none;
+  color: #3b3c3e;
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.5625rem;
+  letter-spacing: 0.33rem;
+  text-transform: uppercase;
+  margin-left: 3.8%;
+
+}
+.wrapper-menu {
+  width: 70%;
+  margin-left: 12.3%;
+  margin-top: 3.3%;
+  float:left;
+  }
+.row {
+  @include clearfix();
+  width:100%;
+}
+/*-------------------------------------section 1------------------------------------------------------------------*/
+.inner-section-1 {
+  margin-top: 1.6%;
+}
+.verticalMessage{
+  width: 0.5%;
+  position: absolute;
+  left: 95%;
+  top: 10%;
+  margin: 0;
+  padding: 0;
+}
+.firstMessage-section-1 {
+  color:#b8d6f7;
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.5625rem;
+  letter-spacing: 0.33rem;
+  text-transform: uppercase;
+}
+.secondMessage-section-1 {
+  color:#0b0c11;
+  font-family: Playfair-Display-Bold;
+  font-size: 3.875rem;
+  display: inline-block;
+  margin-top: 3.5%;
+}
+.thirdMessage-section-1 {
+  color:#8f8f8f;
+  font-family: Poppins-Light;
+  font-size: 0.92rem;
+  margin-top: 4.4%;
+  line-height: 1.4;
+}
+.message-section-1 {
+  padding-top: 17%;
+  position:absolute;
+  margin-left: 5.8%;
+}
+.section-1-image {
+  margin-left: 16.5%;
+}
+.section-1-slider {
+  display: inline-block;
+  padding-top: 37%;
+  padding-left: 4%;
+}
+.leftButton-section-1 {
+  color:#eeeeee;
+  padding-right: 0.3rem;
+  text-decoration: none;
+  &:hover{cursor: pointer;}
+}
+.rightButton-section-1 {
+  color:#eeeeee;
+  padding-left: 0.3rem;
+  text-decoration: none;
+  &:hover{cursor: pointer;}
+}
+.fraction{
+  color:#eeeeee;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem;
+}
+.sliderFirstNumber-section-1 {
+  font-size: 0.5rem;
+  font-family: LeagueSpartan-Bold;
+  display: inline-block;
+  padding-bottom: 0.1rem;
+  vertical-align: middle;
+  color:#b8d6f7;
+}
+.sliderSecondNumber-section-1{
+  font-size: 0.5rem;
+  font-family: LeagueSpartan-Bold;
+  display: inline-block;
+  padding-bottom: 0.1rem;
+  vertical-align: middle;
+  color:#262626;
+}
+.vimeo{
+  img{width: 100%;}
+  width:1.1%;
+  position: absolute;
+  left:96%;
+  top:99%;
+  &:hover{cursor: pointer;}
+}
+.twitter{
+  img{width: 100%;}
+  width:1.1%;
+  position: absolute;
+  left:96%;
+  top:92%;
+  &:hover{cursor: pointer;}
+}
+.tumblr{
+  img{width: 100%;}
+    width:0.75%;
+    position: absolute;
+    left:96%;
+    top:85%;
+    &:hover{cursor: pointer;}
+}
+/*----------------------------section 2-------------------------------------------------------------------*/
+.inner-section-2 {
+  width:100%;
+  height: 200%;
+  margin-top: 10%;
+}
+.image-1-section-2{
+  margin-left: 7%;
+}
+.img-1-section-2 {
+  width:100%;
+}
+.frame {
+  position:absolute;
+  margin-left: 46%;
+  margin-top: 3.2%;
+  height: 96%;
+  width: 92.5%;
+}
+.message-section-2 {
+  div {
+    margin-top: 4%;
+    margin-left: 16%;
+    font-family:Poppins-Light;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color:#a3a3a3;
+  }
+  span {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 16%;
+    color:#333333;
+    font-family: LeagueSpartan-Bold;
+    font-size:0.56rem;
+    text-transform: uppercase;
+    letter-spacing: 0.33rem;
+    border-bottom: solid #8dc2f4 3px;
+    a {
+      display: inline-block;
+      padding-bottom: 0.7rem;
+      margin-right: -0.25rem;
+      &:hover{cursor: pointer;}
+    }
+  }
+}
+/*-----------------------------section-3----------------------------------------------------------*/
+.inner-section-3 {
+  width:100%;
+  margin-top: 17%;
+}
+.message-section-3 {
+  width: 100%;
+  .firstMessage-section-3 {
+    text-align: center;
+    font-family: LeagueSpartan-Bold;
+    font-size: 0.56rem;
+    text-transform: uppercase;
+    letter-spacing: 0.33rem;
+    color:#8dc2f4;
+  }
+  .secondMessage-section-3{
+    text-align: center;
+    font-family: Playfair-Display-Bold;
+    font-size: 2.6125rem;
+    margin-top: 0.2rem;
+  }
+}
+.slider-section-3 {
+  margin-top: -2%;
+
+}
+.section-3-leftButton {
+  width: 6%;
+  float: left;
+  margin-top: 22.3%;
+  img{
+    width: 12%;
+    margin-left: 20%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.slider {
+  width:88%;
+  float: left;
+  @include clearfix();
+  .part-1{
+    float: left;
+    width: 28%; /*28*/
+    height: 600px;
+    img{
+      width:  80%; /*100-0*/
+    }
+  }
+  .part-2{
+    float: left;
+    width: 28%;
+    margin-left: 6%;
+    height: 600px;
+    img{
+      width: 79%; /*98.5-0*/
+    }
+  }
+  .part-3{
+    float: left;
+    width: 28%;
+    margin-left: 6%;
+    height: 600px;
+    img{
+      width: 76.8%;
+      margin-top: -1.8%; /*95-1.8*/
+    }
+  }
+}
+.section-3-rightButton{
+  width: 6%;
+  float: left;
+  margin-top: 23.6%;
+  img{
+    width: 13%;
+    margin-left: 57%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+.name-part-1 {
+  font-family: Poppins-Light;
+  font-size: 0.75rem;
+  color:#939393;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position:absolute;
+  margin-top: 17.5%;
+  margin-left: -4.5%;
+}
+.model-part-1{
+  font-family: Playfair-Display-Bold;
+  font-size: 1.625rem;
+  color:#333333;
+  position: absolute;
+  margin-top: -16.5%;
+  margin-left: 15.5%;
+}
+.price-part-1 {
+  font-family: Poppins-Light;
+  font-size: 1.25rem;
+  color:#d47ab4;
+  text-transform: uppercase;
+  position:absolute;
+  margin-top: -12.3%;
+  margin-left: 19.5%;
+}
+.buy-part-1{
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.56rem;
+  color:#333333;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position:absolute;
+  margin-top:-11.6%;
+  margin-left: 19.7%;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.name-part-2 {
+  font-family: Poppins-Light;
+  font-size: 0.75rem;
+  color:#939393;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position:absolute;
+  margin-top: 17.5%;
+  margin-left: -4.5%;
+}
+.model-part-2{
+  font-family: Playfair-Display-Bold;
+  font-size: 1.625rem;
+  color:#333333;
+  position: absolute;
+  margin-top: -16.5%;
+  margin-left: 15.3%;
+}
+.price-part-2 {
+  font-family: Poppins-Light;
+  font-size: 1.25rem;
+  color:#d47ab4;
+  text-transform: uppercase;
+  position:absolute;
+  margin-top: -13.2%;
+  margin-left: 19.5%;
+}
+.buy-part-2{
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.56rem;
+  color:#333333;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position:absolute;
+  margin-top:-12.6%;
+  margin-left: 19.7%;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.name-part-3 {
+  font-family: Poppins-Light;
+  font-size: 0.75rem;
+  color:#939393;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position:absolute;
+  margin-top: 17.5%;
+  margin-left: -4.5%;
+}
+.model-part-3{
+  font-family: Playfair-Display-Bold;
+  font-size: 1.625rem;
+  color:#333333;
+  position: absolute;
+  margin-top: -16.5%;
+  margin-left: 14.8%;
+}
+.price-part-3 {
+  font-family: Poppins-Light;
+  font-size: 1.25rem;
+  color:#d47ab4;
+  text-transform: uppercase;
+  position:absolute;
+  margin-top: -13.2%;
+  margin-left: 19.5%;
+}
+.buy-part-3{
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.56rem;
+  color:#333333;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position:absolute;
+  margin-top:-12.6%;
+  margin-left: 19.7%;
+  &:hover{
+    cursor: pointer;
+  }
+}
+.showAll {
+  width: 100%;
+  text-align: center;
+  p {
+    a {
+      display: inline-block;
+      padding-bottom: 0.6rem;
+      margin-right: -0.25rem;
+      &:hover{cursor: pointer;}
+    }
+    display: inline-block;
+    font-family: LeagueSpartan-Bold;
+    font-size: 0.56rem;
+    text-transform: uppercase;
+    letter-spacing: 0.33rem;
+    border-bottom: solid #8cc1f3 3px;
+  }
+}
+/*--------------------------section 4-------------------------------------------------------------*/
+.inner-section-4 {
+  width:100%;
+  margin-top: 12%;
+}
+.image-1-section-4 {
+  width:100%;
+}
+.image-1-section-4 {
+  width: 93%;
+  margin-left: -5%;
+}
+.firstMessage-section-4 {
+  a {
+    border-bottom:solid #8cc1f3 3px;
+    display: inline-block;
+    padding-bottom: 5%;
+  }
+  font-family:Playfair-Display-Bold;
+  font-size: 2.36rem;
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 29%;
+}
+.secondMessage-section-4 {
+  font-family: Poppins-Light;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 29%;
+  line-height: 1.5rem;
+}
+.thirdMessage-section-4 {
+  a {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-right: -0.25rem;
+    &:hover{cursor: pointer;}
+  }
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  margin-top: 8%;
+  margin-left: 29%;
+  border-bottom:solid #8cc1f3 3px;
+}
+/*----------------------------footer----------------------------------------------------------------------*/
+.inner-footer {
+  width: 100%;
+  margin-top: 16%;
+}
+.footer-message-1 {
+  font-family: Playfair-Display-Bold;
+  font-size: 2.4rem;
+  text-align: center;
+}
+.footer-message-2{
+  text-align: center;
+  font-family: Poppins-Light;
+  font-size: 0.78rem;
+  line-height: 1.5rem;
+  margin-top: 2%;
+}
+.mail-input {
+  width: 100%;
+  margin-top: 1.7%;
+  input{
+    height: 2.4rem;
+    width: 34%;
+    background-color: #f5f5f5;
+    border: 0;
+    margin-left: -3.5%;
+    font-family: LeagueSpartan-Bold;
+    font-size: 0.55rem;
+    text-transform:uppercase;
+    color:#515151;
+    letter-spacing: 0.25rem;
+    text-indent:9%;
+    vertical-align: 0rem;
+  }
+    div {
+      img{
+        width: 22%;
+        margin-top: 25%;
+        &:hover{cursor: pointer;}
+      }
+      position: absolute;
+      display: inline-block;
+      height: 2.4rem;
+      width: 3.2%;
+      background-color: #5da8ef;
+      border: 0;
+      font-size: 1.8rem;
+      color: white;
+    }
+  text-align: center;
+}

@@ -1,0 +1,770 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "LeagueSpartan-Bold";
+  src: url("../fonts/LeagueSpartan-Bold.otf"); }
+@font-face {
+  font-family: "Playfair-Display-Bold";
+  src: url("../fonts/ofont.ru_Playfair Display.ttf"); }
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../fonts/Poppins-Light.ttf"); }
+.site-wrapper {
+  background-color: #ffffff; }
+
+/*--------------------header--------------------------------------------------*/
+.inner-header {
+  width: 100%; }
+
+.wrapper-image-header {
+  width: 20%; }
+
+.img-header-1 {
+  width: 5%;
+  margin-left: 27%;
+  margin-top: 12%;
+  float: left; }
+
+.image-section-1 {
+  width: 107%; }
+
+.header-menu {
+  text-decoration: none;
+  color: #3b3c3e;
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.5625rem;
+  letter-spacing: 0.33rem;
+  text-transform: uppercase;
+  margin-left: 3.8%; }
+
+.wrapper-menu {
+  width: 70%;
+  margin-left: 12.3%;
+  margin-top: 3.3%;
+  float: left; }
+
+.row {
+  width: 100%; }
+  .row:before, .row:after {
+    content: "";
+    display: table; }
+  .row:after {
+    clear: both; }
+
+/*-------------------------------------section 1------------------------------------------------------------------*/
+.inner-section-1 {
+  margin-top: 1.6%; }
+
+.verticalMessage {
+  width: 0.5%;
+  position: absolute;
+  left: 95%;
+  top: 10%;
+  margin: 0;
+  padding: 0; }
+
+.firstMessage-section-1 {
+  color: #b8d6f7;
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.5625rem;
+  letter-spacing: 0.33rem;
+  text-transform: uppercase; }
+
+.secondMessage-section-1 {
+  color: #0b0c11;
+  font-family: Playfair-Display-Bold;
+  font-size: 3.875rem;
+  display: inline-block;
+  margin-top: 3.5%; }
+
+.thirdMessage-section-1 {
+  color: #8f8f8f;
+  font-family: Poppins-Light;
+  font-size: 0.92rem;
+  margin-top: 4.4%;
+  line-height: 1.4; }
+
+.message-section-1 {
+  padding-top: 17%;
+  position: absolute;
+  margin-left: 5.8%; }
+
+.section-1-image {
+  margin-left: 16.5%; }
+
+.section-1-slider {
+  display: inline-block;
+  padding-top: 37%;
+  padding-left: 4%; }
+
+.leftButton-section-1 {
+  color: #eeeeee;
+  padding-right: 0.3rem;
+  text-decoration: none; }
+  .leftButton-section-1:hover {
+    cursor: pointer; }
+
+.rightButton-section-1 {
+  color: #eeeeee;
+  padding-left: 0.3rem;
+  text-decoration: none; }
+  .rightButton-section-1:hover {
+    cursor: pointer; }
+
+.fraction {
+  color: #eeeeee;
+  padding-right: 0.1rem;
+  padding-left: 0.1rem; }
+
+.sliderFirstNumber-section-1 {
+  font-size: 0.5rem;
+  font-family: LeagueSpartan-Bold;
+  display: inline-block;
+  padding-bottom: 0.1rem;
+  vertical-align: middle;
+  color: #b8d6f7; }
+
+.sliderSecondNumber-section-1 {
+  font-size: 0.5rem;
+  font-family: LeagueSpartan-Bold;
+  display: inline-block;
+  padding-bottom: 0.1rem;
+  vertical-align: middle;
+  color: #262626; }
+
+.vimeo {
+  width: 1.1%;
+  position: absolute;
+  left: 96%;
+  top: 99%; }
+  .vimeo img {
+    width: 100%; }
+  .vimeo:hover {
+    cursor: pointer; }
+
+.twitter {
+  width: 1.1%;
+  position: absolute;
+  left: 96%;
+  top: 92%; }
+  .twitter img {
+    width: 100%; }
+  .twitter:hover {
+    cursor: pointer; }
+
+.tumblr {
+  width: 0.75%;
+  position: absolute;
+  left: 96%;
+  top: 85%; }
+  .tumblr img {
+    width: 100%; }
+  .tumblr:hover {
+    cursor: pointer; }
+
+/*----------------------------section 2-------------------------------------------------------------------*/
+.inner-section-2 {
+  width: 100%;
+  height: 200%;
+  margin-top: 10%; }
+
+.image-1-section-2 {
+  margin-left: 7%; }
+
+.img-1-section-2 {
+  width: 100%; }
+
+.frame {
+  position: absolute;
+  margin-left: 46%;
+  margin-top: 3.2%;
+  height: 96%;
+  width: 92.5%; }
+
+.message-section-2 div {
+  margin-top: 4%;
+  margin-left: 16%;
+  font-family: Poppins-Light;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #a3a3a3; }
+.message-section-2 span {
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 16%;
+  color: #333333;
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.56rem;
+  text-transform: uppercase;
+  letter-spacing: 0.33rem;
+  border-bottom: solid #8dc2f4 3px; }
+  .message-section-2 span a {
+    display: inline-block;
+    padding-bottom: 0.7rem;
+    margin-right: -0.25rem; }
+    .message-section-2 span a:hover {
+      cursor: pointer; }
+
+/*-----------------------------section-3----------------------------------------------------------*/
+.inner-section-3 {
+  width: 100%;
+  margin-top: 17%; }
+
+.message-section-3 {
+  width: 100%; }
+  .message-section-3 .firstMessage-section-3 {
+    text-align: center;
+    font-family: LeagueSpartan-Bold;
+    font-size: 0.56rem;
+    text-transform: uppercase;
+    letter-spacing: 0.33rem;
+    color: #8dc2f4; }
+  .message-section-3 .secondMessage-section-3 {
+    text-align: center;
+    font-family: Playfair-Display-Bold;
+    font-size: 2.6125rem;
+    margin-top: 0.2rem; }
+
+.slider-section-3 {
+  margin-top: -2%; }
+
+.section-3-leftButton {
+  width: 6%;
+  float: left;
+  margin-top: 22.3%; }
+  .section-3-leftButton img {
+    width: 12%;
+    margin-left: 20%; }
+    .section-3-leftButton img:hover {
+      cursor: pointer; }
+
+.slider {
+  width: 88%;
+  float: left; }
+  .slider:before, .slider:after {
+    content: "";
+    display: table; }
+  .slider:after {
+    clear: both; }
+  .slider .part-1 {
+    float: left;
+    width: 28%;
+    /*28*/
+    height: 600px; }
+    .slider .part-1 img {
+      width: 80%;
+      /*100-0*/ }
+  .slider .part-2 {
+    float: left;
+    width: 28%;
+    margin-left: 6%;
+    height: 600px; }
+    .slider .part-2 img {
+      width: 79%;
+      /*98.5-0*/ }
+  .slider .part-3 {
+    float: left;
+    width: 28%;
+    margin-left: 6%;
+    height: 600px; }
+    .slider .part-3 img {
+      width: 76.8%;
+      margin-top: -1.8%;
+      /*95-1.8*/ }
+
+.section-3-rightButton {
+  width: 6%;
+  float: left;
+  margin-top: 23.6%; }
+  .section-3-rightButton img {
+    width: 13%;
+    margin-left: 57%; }
+    .section-3-rightButton img:hover {
+      cursor: pointer; }
+
+.name-part-1 {
+  font-family: Poppins-Light;
+  font-size: 0.75rem;
+  color: #939393;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position: absolute;
+  margin-top: 17.5%;
+  margin-left: -4.5%; }
+
+.model-part-1 {
+  font-family: Playfair-Display-Bold;
+  font-size: 1.625rem;
+  color: #333333;
+  position: absolute;
+  margin-top: -16.5%;
+  margin-left: 15.5%; }
+
+.price-part-1 {
+  font-family: Poppins-Light;
+  font-size: 1.25rem;
+  color: #d47ab4;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -12.3%;
+  margin-left: 19.5%; }
+
+.buy-part-1 {
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.56rem;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position: absolute;
+  margin-top: -11.6%;
+  margin-left: 19.7%; }
+  .buy-part-1:hover {
+    cursor: pointer; }
+
+.name-part-2 {
+  font-family: Poppins-Light;
+  font-size: 0.75rem;
+  color: #939393;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position: absolute;
+  margin-top: 17.5%;
+  margin-left: -4.5%; }
+
+.model-part-2 {
+  font-family: Playfair-Display-Bold;
+  font-size: 1.625rem;
+  color: #333333;
+  position: absolute;
+  margin-top: -16.5%;
+  margin-left: 15.3%; }
+
+.price-part-2 {
+  font-family: Poppins-Light;
+  font-size: 1.25rem;
+  color: #d47ab4;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -13.2%;
+  margin-left: 19.5%; }
+
+.buy-part-2 {
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.56rem;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position: absolute;
+  margin-top: -12.6%;
+  margin-left: 19.7%; }
+  .buy-part-2:hover {
+    cursor: pointer; }
+
+.name-part-3 {
+  font-family: Poppins-Light;
+  font-size: 0.75rem;
+  color: #939393;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position: absolute;
+  margin-top: 17.5%;
+  margin-left: -4.5%; }
+
+.model-part-3 {
+  font-family: Playfair-Display-Bold;
+  font-size: 1.625rem;
+  color: #333333;
+  position: absolute;
+  margin-top: -16.5%;
+  margin-left: 14.8%; }
+
+.price-part-3 {
+  font-family: Poppins-Light;
+  font-size: 1.25rem;
+  color: #d47ab4;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: -13.2%;
+  margin-left: 19.5%; }
+
+.buy-part-3 {
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.56rem;
+  color: #333333;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  position: absolute;
+  margin-top: -12.6%;
+  margin-left: 19.7%; }
+  .buy-part-3:hover {
+    cursor: pointer; }
+
+.showAll {
+  width: 100%;
+  text-align: center; }
+  .showAll p {
+    display: inline-block;
+    font-family: LeagueSpartan-Bold;
+    font-size: 0.56rem;
+    text-transform: uppercase;
+    letter-spacing: 0.33rem;
+    border-bottom: solid #8cc1f3 3px; }
+    .showAll p a {
+      display: inline-block;
+      padding-bottom: 0.6rem;
+      margin-right: -0.25rem; }
+      .showAll p a:hover {
+        cursor: pointer; }
+
+/*--------------------------section 4-------------------------------------------------------------*/
+.inner-section-4 {
+  width: 100%;
+  margin-top: 12%; }
+
+.image-1-section-4 {
+  width: 100%; }
+
+.image-1-section-4 {
+  width: 93%;
+  margin-left: -5%; }
+
+.firstMessage-section-4 {
+  font-family: Playfair-Display-Bold;
+  font-size: 2.36rem;
+  display: inline-block;
+  margin-top: 15%;
+  margin-left: 29%; }
+  .firstMessage-section-4 a {
+    border-bottom: solid #8cc1f3 3px;
+    display: inline-block;
+    padding-bottom: 5%; }
+
+.secondMessage-section-4 {
+  font-family: Poppins-Light;
+  font-size: 0.8rem;
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 29%;
+  line-height: 1.5rem; }
+
+.thirdMessage-section-4 {
+  font-family: LeagueSpartan-Bold;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  display: inline-block;
+  margin-top: 8%;
+  margin-left: 29%;
+  border-bottom: solid #8cc1f3 3px; }
+  .thirdMessage-section-4 a {
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-right: -0.25rem; }
+    .thirdMessage-section-4 a:hover {
+      cursor: pointer; }
+
+/*----------------------------footer----------------------------------------------------------------------*/
+.inner-footer {
+  width: 100%;
+  margin-top: 16%; }
+
+.footer-message-1 {
+  font-family: Playfair-Display-Bold;
+  font-size: 2.4rem;
+  text-align: center; }
+
+.footer-message-2 {
+  text-align: center;
+  font-family: Poppins-Light;
+  font-size: 0.78rem;
+  line-height: 1.5rem;
+  margin-top: 2%; }
+
+.mail-input {
+  width: 100%;
+  margin-top: 1.7%;
+  text-align: center; }
+  .mail-input input {
+    height: 2.4rem;
+    width: 34%;
+    background-color: #f5f5f5;
+    border: 0;
+    margin-left: -3.5%;
+    font-family: LeagueSpartan-Bold;
+    font-size: 0.55rem;
+    text-transform: uppercase;
+    color: #515151;
+    letter-spacing: 0.25rem;
+    text-indent: 9%;
+    vertical-align: 0rem; }
+  .mail-input div {
+    position: absolute;
+    display: inline-block;
+    height: 2.4rem;
+    width: 3.2%;
+    background-color: #5da8ef;
+    border: 0;
+    font-size: 1.8rem;
+    color: white; }
+    .mail-input div img {
+      width: 22%;
+      margin-top: 25%; }
+      .mail-input div img:hover {
+        cursor: pointer; }
+
+.col-1 {
+  width: 7.14286%;
+  float: left; }
+
+.col-2 {
+  width: 14.28571%;
+  float: left; }
+
+.col-3 {
+  width: 21.42857%;
+  float: left; }
+
+.col-4 {
+  width: 28.57143%;
+  float: left; }
+
+.col-5 {
+  width: 35.71429%;
+  float: left; }
+
+.col-6 {
+  width: 42.85714%;
+  float: left; }
+
+.col-7 {
+  width: 50%;
+  float: left; }
+
+.col-8 {
+  width: 57.14286%;
+  float: left; }
+
+.col-9 {
+  width: 64.28571%;
+  float: left; }
+
+.col-10 {
+  width: 71.42857%;
+  float: left; }
+
+.col-11 {
+  width: 78.57143%;
+  float: left; }
+
+.col-12 {
+  width: 85.71429%;
+  float: left; }
+
+.col-13 {
+  width: 92.85714%;
+  float: left; }
+
+.col-14 {
+  width: 100%;
+  float: left; }
+
+@media only screen and (max-width: 960px) {
+  .verticalMessage {
+    display: none; }
+
+  .vimeo {
+    width: 1.5%;
+    position: absolute;
+    left: 40%;
+    top: 108%; }
+
+  .twitter {
+    width: 1.5%;
+    position: absolute;
+    left: 48%;
+    top: 108%; }
+
+  .tumblr {
+    width: 0.95%;
+    position: absolute;
+    left: 56%;
+    top: 108%; }
+
+  .header-menu {
+    font-size: 0.39531rem;
+    letter-spacing: 0.23192rem; }
+
+  .firstMessage-section-1 {
+    font-size: 0.39531rem;
+    letter-spacing: 0.23192rem; }
+
+  .secondMessage-section-1 {
+    font-size: 2.72328rem; }
+
+  .thirdMessage-section-1 {
+    font-size: 0.64656rem; }
+
+  .leftButton-section-1 {
+    padding-right: 0.21083rem; }
+
+  .rightButton-section-1 {
+    padding-left: 0.21083rem; }
+
+  .fraction {
+    padding-right: 0.1rem;
+    padding-left: 0.1rem; }
+
+  .sliderFirstNumber-section-1 {
+    font-size: 0.35139rem;
+    padding-bottom: 0.07028rem; }
+
+  .sliderSecondNumber-section-1 {
+    font-size: 0.35139rem;
+    font-family: LeagueSpartan-Bold;
+    padding-bottom: 0.07028rem; }
+
+  .message-section-2 div {
+    font-size: 0.6325rem; }
+  .message-section-2 span {
+    font-size: 0.39356rem;
+    letter-spacing: 0.23192rem;
+    border-bottom: solid #8dc2f4 2.10835px; }
+    .message-section-2 span a {
+      padding-bottom: 0.49195rem;
+      margin-right: -0.1757rem; }
+
+  .message-section-3 .firstMessage-section-3 {
+    font-size: 0.39356rem;
+    letter-spacing: 0.23192rem; }
+  .message-section-3 .secondMessage-section-3 {
+    font-size: 1.83602rem;
+    margin-top: 0.14056rem; }
+
+  .slider .part-1 {
+    background-image: url("../image/media960-board-1.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-left: 0%;
+    height: 632.50366px;
+    /*╤В╤Г╤В ╨║╨╛╤Н╤Д╤Д╨╕╤Ж╨╕╨╡╨╜╤В 960/1366 - ╤Н╤В╨╛ ╤Г╤З╨╡╤В ╤А╨░╨╖╤А╨╡╤И╨╡╨╜╨╕╤П ╤Н╨║╤А╨░╨╜╨░, ╨░ ╨║╨╛╤Н╤Д╤Д. 42/28 - ╤Г╤З╨╡╤В ╤Г╨▓╨╡╨╗╨╕╤З╨╡╨╜╨╕╤П ╨║╨░╤А╤В╨╛╤З╨║╨╕ ╨▓ 1.5 ╤А╨░╨╖╨░, ╨▓╨╡╨┤╤М ╨║╨░╤А╤В╨╛╤З╨╡╨║ ╤Б╤В╨░╨╗╨╛ ╨╜╨╡ 3, ╨░ 2 */ }
+    .slider .part-1 img {
+      display: none; }
+    .slider .part-1 .name-part-1 {
+      display: none; }
+    .slider .part-1 .model-part-1 {
+      display: none; }
+    .slider .part-1 .price-part-1 {
+      display: none; }
+    .slider .part-1 .buy-part-1 {
+      display: none; }
+    .slider .part-1:hover {
+      cursor: pointer; }
+  .slider .part-2 {
+    background-image: url("../image/media960-board-2.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    margin-left: 0%;
+    margin-top: -2.3%;
+    height: 632.50366px; }
+    .slider .part-2 img {
+      display: none; }
+    .slider .part-2 .name-part-2 {
+      display: none; }
+    .slider .part-2 .model-part-2 {
+      display: none; }
+    .slider .part-2 .price-part-2 {
+      display: none; }
+    .slider .part-2 .buy-part-2 {
+      display: none; }
+    .slider .part-2:hover {
+      cursor: pointer; }
+  .slider .part-3 {
+    display: none; }
+
+  .section-3-rightButton {
+    margin-top: 33%; }
+    .section-3-rightButton img {
+      width: 19.5%;
+      margin-left: 50%; }
+
+  .section-3-leftButton {
+    margin-top: 32.55%; }
+    .section-3-leftButton img {
+      width: 19.5%;
+      margin-left: 30%; }
+      .section-3-leftButton img:hover {
+        cursor: pointer; }
+
+  .showAll p {
+    font-size: 0.59034rem;
+    letter-spacing: 0.34788rem;
+    border-bottom: solid #8cc1f3 3.16252px; }
+    .showAll p a {
+      padding-bottom: 0.6325rem;
+      margin-right: -0.26354rem; }
+
+  .firstMessage-section-4 {
+    font-size: 1.65857rem; }
+    .firstMessage-section-4 a {
+      border-bottom: solid #8cc1f3 2.10835px; }
+
+  .secondMessage-section-4 {
+    font-size: 0.56223rem;
+    line-height: 1.05417rem; }
+
+  .thirdMessage-section-4 {
+    font-size: 0.35139rem;
+    letter-spacing: 0.1757rem;
+    border-bottom: solid #8cc1f3 2.10835px; }
+    .thirdMessage-section-4 a {
+      padding-bottom: 0.35139rem;
+      margin-right: -0.1757rem; }
+
+  .footer-message-1 {
+    font-size: 1.68668rem; }
+
+  .footer-message-2 {
+    font-size: 0.54817rem;
+    line-height: 1.05417rem; }
+
+  .mail-input input {
+    height: 1.68668rem;
+    font-size: 0.38653rem;
+    letter-spacing: 0.1757rem; }
+  .mail-input div {
+    height: 1.68668rem;
+    font-size: 1.26501rem; } }
+
+/*# sourceMappingURL=main.css.map */

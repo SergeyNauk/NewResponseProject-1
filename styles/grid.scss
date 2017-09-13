@@ -1,0 +1,4 @@
+@for $i from 1 through 14 {
+  .col-#{$i} { width: 100% * $i/14;  float:left;
+  }
+}
